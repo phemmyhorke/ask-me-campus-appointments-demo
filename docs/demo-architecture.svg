@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="170" viewBox="0 0 760 170" role="img" aria-labelledby="title desc">
+  <title id="title">Local demo architecture</title>
+  <desc id="desc">A local browser sends requests to a same-origin Python HTTP API. The API reads and updates the fictional in-memory schedule and returns JSON. No persistent database is used.</desc>
+  <rect width="760" height="170" fill="#ffffff"/>
+  <g fill="#ffffff" stroke="#4b5563" stroke-width="1.25">
+    <rect x="26" y="49" width="176" height="72"/>
+    <rect x="292" y="49" width="176" height="72"/>
+    <rect x="558" y="49" width="176" height="72"/>
+  </g>
+  <g fill="none" stroke="#4b5563" stroke-width="1.35" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M202 73h90m-6-5 6 5-6 5M292 98h-90m6-5-6 5 6 5M468 73h90m-6-5 6 5-6 5M558 98h-90m6-5-6 5 6 5"/>
+  </g>
+  <g font-family="Arial, Liberation Sans, sans-serif" text-anchor="middle">
+    <g fill="#171923" font-size="18">
+      <text x="114" y="80">Browser</text>
+      <text x="380" y="80">Python HTTP API</text>
+      <text x="646" y="80">In-memory schedule</text>
+    </g>
+    <g fill="#4b5563" font-size="14">
+      <text x="114" y="102">HTML, CSS, JavaScript</text>
+      <text x="380" y="102">Same origin, localhost</text>
+      <text x="646" y="102">Fictional data</text>
+      <text x="247" y="59">Requests</text>
+      <text x="247" y="122">JSON</text>
+      <text x="513" y="59">Updates</text>
+      <text x="513" y="122">State</text>
+    </g>
+  </g>
+</svg>

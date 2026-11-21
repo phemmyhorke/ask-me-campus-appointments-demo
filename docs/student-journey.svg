@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1124" viewBox="0 0 760 1124" role="img" aria-labelledby="title desc">
+  <title id="title">Student appointment journey</title>
+  <desc id="desc">View fictional consultation times and choose a slot. If it is no longer available, refresh and choose again. A confirmed booking can be cancelled or rescheduled. A successful move frees the old slot; an unsuccessful move keeps the original booking.</desc>
+  <rect width="760" height="1124" fill="white"/>
+  <!-- Connectors are separate from the node labels, so paths never clip text. -->
+  <g stroke="#353535" fill="none" stroke-width="1.35" stroke-linejoin="round">
+    <path d="M380 86V122 M380 182V213"/>
+    <path d="M349 325V374H278V408 M411 325V374H527V408"/>
+    <path d="M610 442H687V102H470V94"/>
+    <path d="M278 470V505"/>
+    <path d="M247 628V672H150V696 M309 628V672H463V696"/>
+    <path d="M150 824V875 M57 764H31V396H206V408"/>
+    <path d="M80 945V977H14V104H307V94"/>
+    <path d="M463 764V793 M431 915V963H405V986 M495 915V963H621V986"/>
+    <path d="M712 1028H733V684H523V696"/>
+    <path d="M405 1058V1100H748V492H326V478"/>
+  </g>
+  <g fill="#353535">
+    <path d="M375 122h10l-5 8z M375 213h10l-5 8z"/>
+    <path d="M273 408h10l-5 8z M522 408h10l-5 8z M465 94h10l-5-8z"/>
+    <path d="M273 505h10l-5 8z M145 696h10l-5 8z M458 696h10l-5 8z"/>
+    <path d="M145 875h10l-5 8z M201 408h10l-5 8z M302 94h10l-5-8z"/>
+    <path d="M458 793h10l-5 8z M400 986h10l-5 8z M616 986h10l-5 8z"/>
+    <path d="M518 696h10l-5 8z M321 478h10l-5-8z"/>
+  </g>
+  <g fill="#ececff" stroke="#9370db" stroke-width="1.35">
+    <rect x="261" y="32" width="238" height="54"/>
+    <rect x="261" y="130" width="238" height="52"/>
+    <path d="M380 221 485 282 380 343 275 282Z"/>
+    <rect x="170" y="416" width="216" height="54"/>
+    <rect x="443" y="416" width="167" height="54"/>
+    <path d="M278 513 387 580 278 647 169 580Z"/>
+    <path d="M150 704 243 764 150 824 57 764Z"/>
+    <rect x="345" y="704" width="236" height="60"/>
+    <path d="M463 801 559 869 463 937 367 869Z"/>
+    <rect x="52" y="883" width="196" height="62"/>
+    <rect x="292" y="994" width="226" height="64"/>
+    <rect x="530" y="994" width="182" height="64"/>
+  </g>
+  <g font-family="Arial, Liberation Sans, sans-serif" font-size="16" text-anchor="middle" fill="#20202a">
+    <text x="380" y="54"><tspan x="380">View fictional</tspan><tspan x="380" dy="19">consultation times</tspan></text>
+    <text x="380" y="161">Choose a slot and select Book</text>
+    <text x="380" y="278"><tspan x="380">Is the slot still</tspan><tspan x="380" dy="19">available?</tspan></text>
+    <text x="278" y="438"><tspan x="278">Booking appears in</tspan><tspan x="278" dy="19">Demo bookings</tspan></text>
+    <text x="526.5" y="438"><tspan x="526.5">Show conflict and</tspan><tspan x="526.5" dy="19">refresh availability</tspan></text>
+    <text x="278" y="585">Manage booking</text>
+    <text x="150" y="760"><tspan x="150">Confirm</tspan><tspan x="150" dy="19">cancellation?</tspan></text>
+    <text x="463" y="729"><tspan x="463">Choose a new slot</tspan><tspan x="463" dy="19">and select Move here</tspan></text>
+    <text x="463" y="865"><tspan x="463">Is the new slot</tspan><tspan x="463" dy="19">still available?</tspan></text>
+    <text x="150" y="909"><tspan x="150">Cancel booking</tspan><tspan x="150" dy="19">and free the slot</tspan></text>
+    <text x="405" y="1021"><tspan x="405">Move the booking</tspan><tspan x="405" dy="19">and free the old slot</tspan></text>
+    <text x="621" y="1021"><tspan x="621">Keep original booking</tspan><tspan x="621" dy="19">and refresh times</tspan></text>
+  </g>
+  <g fill="white">
+    <rect x="263" y="382" width="30" height="19"/>
+    <rect x="513" y="382" width="28" height="19"/>
+    <rect x="126" y="677" width="48" height="18"/>
+    <rect x="421" y="677" width="84" height="18"/>
+    <rect x="135" y="843" width="30" height="19"/>
+    <rect x="17" y="637" width="28" height="19"/>
+    <rect x="390" y="966" width="30" height="19"/>
+    <rect x="607" y="966" width="28" height="19"/>
+  </g>
+  <g font-family="Arial, Liberation Sans, sans-serif" font-size="14.5" text-anchor="middle" fill="#292929">
+    <text x="278" y="396">Yes</text><text x="527" y="396">No</text>
+    <text x="150" y="691">Cancel</text><text x="463" y="691">Reschedule</text>
+    <text x="150" y="857">Yes</text><text x="31" y="651">No</text>
+    <text x="405" y="980">Yes</text><text x="621" y="980">No</text>
+  </g>
+</svg>
